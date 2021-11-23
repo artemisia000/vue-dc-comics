@@ -1,7 +1,9 @@
 <template>
    <div class="banner ">
        <div class="container">
-           <a href="/"> -->Content goes here</a>
+           <div>
+               <a class="goes" href="/"> -->Content goes here</a>
+           </div>
        </div>
    </div>
 
@@ -22,9 +24,16 @@ export default {
         height: 100px;
         background-color: #000;
     }
+
+    .goes{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+    }
     
     a{
         justify-content: flex-start;
+        text-decoration: none;
     }
 
 

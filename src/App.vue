@@ -45,9 +45,10 @@ export default {
 }
 
 .container{
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
   display: flex;
+  align-items: center;
 
 }
 

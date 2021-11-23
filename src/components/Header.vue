@@ -5,17 +5,13 @@
         </div>
         <div>
             <ul>
-                <li>GAMES</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
-                <li>FANS</li>
-                <li>NEWS</li>
-                <li>SHOP</li>
-
+                <li v-for="(link ,index) in navLink" :key="`link-${index}`" >
+                    <a :class="{active: link.current}" 
+                       :href="link.url"> 
+                       {{ link.text }} 
+                    </a>
+                </li>
+            
             </ul>
         </div>
    </header>
@@ -24,16 +20,71 @@
 
 <script>
 export default {
-    name: 'header',
-    data() {
+    name: 'Header',
+
+     data() {
 
         return {
-            
-        }
+            navLink: [
+                {
+                    text: 'GAMES',
+                    url: '/GAMES',
+                    current: true,
+                },
+                               {
+                    text: 'COMICS',
+                    url: '/COMICS',
+                    current: false,
+                },
+                               {
+                    text: 'MOVIES',
+                    url: '/MOVIES',
+                    current: false,
+                },
+                               {
+                    text: 'TV',
+                    url: '/TV',
+                    current: false,
+                },
+                               {
+                    text: 'GAMES',
+                    url: '/',
+                    current: false,
+                },
+                               {
+                    text: 'COLLECTIBLES',
+                    url: '/',
+                    current: false,
+                },
+                               {
+                    text: 'VIDEOS',
+                    url: '/',
+                    current: false,
+                },
+                               {
+                    text: 'FANS',
+                    url: '/',
+                    current: false,
+                },
+                               {
+                    text: 'NEWS',
+                    url: '/',
+                    current: false,
+                },
+                               {
+                    text: 'SHOP',
+                    url: '/',
+                    current: false,
+                },
 
-    }
+            ],
 
-}
+        };
+
+    },
+
+};
+
 </script>
 
 <style scoped lang="scss">
@@ -42,10 +93,30 @@ export default {
         height: 100px;
         justify-content: space-between;
         align-items: center;
+
+        img{
+            width: 60px;
+        }
     }
      ul{
+        
          display: flex;
          list-style: none;
+         font-size: 12px;
+
+      
+         a{
+             color: #000;
+             padding: 0 1rem;
+             text-decoration: none;
+             font-weight: 600;
+             &.active,
+             &:hover{
+            padding-bottom: 3px solid #0282f9;
+             }
+             
+
+         }
          
         
 
