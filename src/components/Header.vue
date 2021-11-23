@@ -106,7 +106,7 @@ export default {
 
       
          a{
-             color: #000;
+             color: #464646;
              padding: 0 1rem;
              text-decoration: none;
              font-weight: 600;

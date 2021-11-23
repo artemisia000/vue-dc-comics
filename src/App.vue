@@ -7,6 +7,8 @@
     <Navbar />
 
     <Main />
+
+    <Footer />
     
   </div>
 </template>
@@ -16,6 +18,7 @@ import Header from '@/components/Header.vue';
 import Goes from '@/components/Goes.vue';
 import Navbar from '@/components/Navbar.vue';
 import Main from '@/components/Main.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'App',
@@ -24,6 +27,7 @@ export default {
     Goes,
     Navbar,
     Main,
+    Footer,
   }
 }
 
