@@ -5,6 +5,8 @@
     <Goes />
 
     <Navbar />
+
+    <Main />
     
   </div>
 </template>
@@ -13,6 +15,7 @@
 import Header from '@/components/Header.vue';
 import Goes from '@/components/Goes.vue';
 import Navbar from '@/components/Navbar.vue';
+import Main from '@/components/Main.vue';
 
 export default {
   name: 'App',
@@ -20,6 +23,7 @@ export default {
     Header,
     Goes,
     Navbar,
+    Main,
   }
 }
 
@@ -41,14 +45,12 @@ export default {
   padding: 0;
   box-sizing: border-box;
 
-
 }
 
 .container{
   width: 1000px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
 
 }
 

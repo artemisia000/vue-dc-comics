@@ -41,6 +41,8 @@ export default {
          width: 100%;
          height: 150px;
          background-color: #0282f9;
+         display: flex;
+         align-items: center;
         
 
          .nav{
@@ -53,9 +55,11 @@ export default {
              list-style: none;
              display: flex;
              align-items: center;
+             font-size: 13px;
 
              img{
-                 width: 40px;
+                 width: 45px;
+                 padding: 5px;
              }
              
 
