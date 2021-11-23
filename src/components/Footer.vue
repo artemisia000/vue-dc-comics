@@ -58,4 +58,8 @@ export default {
         font-weight: 400;
     }
 
+    img{
+        margin: 0 10px;
+    }
+
 </style>
