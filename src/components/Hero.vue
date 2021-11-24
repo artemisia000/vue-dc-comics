@@ -1,8 +1,11 @@
 <template>
    <div class="hero">
-
-
-    </div>
+      <div class="container">
+         <div class="label">
+            <p>CURRENT SERIES</p>
+         </div>
+     </div>   
+    </div> 
   
 </template>
 
@@ -23,7 +26,19 @@ export default {
         background-repeat: no-repeat;
         background-size: cover;
 
-        
+    }
+
+    .label{
+        width: 185px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background-color: #0282f9;
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        transform: translate(0, +538%);
+
     }
 
 </style>

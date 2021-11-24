@@ -43,17 +43,13 @@
                     
                     </ul>
                  </div>
+             </div>
 
-          </div>
-
-          <div class="logo">
+                <div class="logo">
              
-          </div>
-
-
-         </div>
-     </main>
-  
+                </div>
+        </div>
+    </main>
 </template>
 
 <script>
@@ -89,7 +85,7 @@ export default {
             background-position-x: 100%;
             background-position-y: center;
             background-repeat: no-repeat;
-            margin-bottom: 0;
+     
         }
       
     }
@@ -102,9 +98,7 @@ export default {
         margin-top: 10px;
     }
 
-   
 
-  
     .list{
         width: 130px;
         text-align: left;
@@ -112,11 +106,11 @@ export default {
 
         li{
             list-style: none;
+                
         }
         
         a{
-            font-size: 12px;
-            margin-bottom: 7px;  
+            font-size: 12px; 
             text-decoration: none;
             color:  #7c7c7c;
             &:hover{
@@ -125,10 +119,6 @@ export default {
 
         }
     }
-
-    
-
-    
 
 
 </style>

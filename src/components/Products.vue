@@ -12,14 +12,11 @@
                   </a>
               </li>
           </ul>
-          
-          <div class="btn">
-              <a href="">LOAD MORE</a>
-          </div>
-          
-        
-
       </div>
+
+          <button class="btn" >
+              LOAD MORE
+          </button>
   </div>
 </template>
 
@@ -116,6 +113,17 @@ export default {
     .products{
         background-color: #212121;
 
+        .btn{
+             width: 160px;
+            height: 28px;
+            background-color:#0282f9 ;
+            border: #0282f9;
+            color: #fff;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
     
     }
 
@@ -132,7 +140,7 @@ export default {
             a{
                 text-decoration: none;
                 &:hover{
-                    background-color: rgba(255,255,255 ,0.2);
+                    filter: grayscale(60%);
                 }
               
             }
@@ -143,6 +151,9 @@ export default {
                 color: #fff;
                 margin-bottom: 30px;
                 margin-top: 15px;
+                &:hover{
+                     color: #0282f9;
+                }
             }
           
         }
@@ -152,19 +163,7 @@ export default {
             height: 140px;
              
         }
-
-        .btn{
-            width: 150px;
-            height: 70px;
-            background-color:#0282f9 ;
-            border: #0282f9;
-            color: #fff;
-
-        }
+        
     }
-
-
-
-
 
 </style>
