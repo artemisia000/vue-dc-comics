@@ -16,10 +16,13 @@ export default {
 <style scoped lang="scss">
 
     .hero{
-        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
         height: 300px;
         background-image: url(../assets/jumbotron.jpg);
-        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
         
     }
 

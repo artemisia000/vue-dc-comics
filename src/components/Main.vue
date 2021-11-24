@@ -47,7 +47,7 @@
           </div>
 
           <div class="logo">
-              <img src="../assets/dc-logo-bg.png" alt="">
+             
           </div>
 
 
@@ -68,10 +68,12 @@ export default {
         width: 100%;
         height: 300px;
         background-image: url(../assets/footer-bg.jpg);
-        object-fit: cover;
-
+        background-size: cover;
+        position: relative;
+         
         .box{
             display: flex;
+
         }
 
     }
@@ -79,12 +81,25 @@ export default {
     .body{
         display: flex;
         justify-content: space-between;
+
+        .logo{
+            width: 700px;
+            background-image: url(../assets/dc-logo-bg.png) ;
+            background-repeat: no-repeat;
+            background-position-x: 100%;
+            background-position-y: center;
+            background-repeat: no-repeat;
+            margin-bottom: 0;
+        }
+      
     }
+
 
     h2{
         color: #fff;
         font-size: 20px;
         margin-bottom: 10px;
+        margin-top: 10px;
     }
 
    
@@ -111,10 +126,7 @@ export default {
         }
     }
 
-    img{
-        height: 300px;
-    }
-   
+    
 
     
 

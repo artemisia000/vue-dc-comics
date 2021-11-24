@@ -4,6 +4,8 @@
 
     <Hero />
 
+    <Products />
+
     <Goes />
 
     <Navbar />
@@ -18,6 +20,7 @@
 <script>
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
+import Products from '@/components/Products.vue';
 import Goes from '@/components/Goes.vue';
 import Navbar from '@/components/Navbar.vue';
 import Main from '@/components/Main.vue';
@@ -28,6 +31,7 @@ export default {
   components: {
     Header,
     Hero,
+    Products,
     Goes,
     Navbar,
     Main,
