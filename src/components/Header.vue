@@ -29,7 +29,7 @@ export default {
                 {
                     text: 'GAMES',
                     url: '/GAMES',
-                    current: true,
+                    current: false,
                 },
                                {
                     text: 'COMICS',
@@ -104,6 +104,17 @@ export default {
          list-style: none;
          font-size: 12px;
 
+         li{
+             height: 100px;
+             display: flex;
+             align-items: center;
+             &:hover{
+                 border-bottom: 4px solid #0282f9;
+                 transition:  0.5s ease;
+                 color: #0282f9;
+             }
+         }
+
       
          a{
              color: #464646;
@@ -112,7 +123,7 @@ export default {
              font-weight: 600;
              &.active,
              &:hover{
-            padding-bottom: 3px solid #0282f9;
+                color: #0282f9;
              }
              
 

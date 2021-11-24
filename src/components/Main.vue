@@ -6,52 +6,49 @@
                  <div class="list">
                      <ul>
                          <h2>DC COMICS</h2>
-                         <li>Characters</li>
-                         <li>Comics</li>
-                         <li>Movies</li>
-                         <li>TV</li>
-                         <li>Games</li>
-                         <li>Videos</li>
-                         <li>News</li>
+                         <li><a href="">Characters</a></li>
+                         <li><a href="">Comics</a></li>
+                         <li><a href="">Movies</a></li>
+                         <li><a href="">TV</a> </li>
+                         <li><a href="">Games</a></li>
+                         <li><a href="">Videos</a></li>
+                         <li><a href="">News</a></li>
                          <h2>SHOP</h2>
-                         <li>Shop DC</li>
-                         <li>Shop DC Collectibles</li>
+                         <li><a href="">Shop DC</a></li>
+                         <li><a href="">Shop DC collectibles</a></li>
                     </ul>
                  </div>
 
                  <div class="list">
                      <ul>
                          <h2>DC</h2>
-                         <li>Terms of Use</li>
-                         <li>Privacy Policy (New)</li>
-                         <li>Advertising</li>
-                         <li>Jobs</li>
-                         <li>Subscriptions</li>
-                         <li>CPSC Certificates</li>
-                         <li>Ratings</li>
+                         <li><a href="">Terms of Use</a></li>
+                         <li><a href="">Privacy Policy (New)</a></li>
+                         <li><a href="">Advertising</a></li>
+                         <li><a href="">Jobs</a></li>
+                         <li><a href="">Subscriptions</a></li>
+                         <li><a href="">CPSC Certificates</a></li>
+                         <li><a href="">Ratings</a></li>
                     </ul>
                  </div>
 
                  <div class="list">
                      <ul>
                          <h2>SITES</h2>
-                         <li>Games</li>
-                         <li>DC UNIVERSE INFINITE</li>
-                         <li>DC Kids</li>
-                         <li>DC Shop</li>
-                         <li>MAD Magazine</li>
+                         <li><a href="">Games</a></li>
+                         <li><a href="">DC UNIVERSE INFINITE</a></li>
+                         <li><a href="">DC Kids</a></li>
+                         <li><a href="">DC Shop</a></li>
+                         <li><a href="">MAD Magazine</a></li>
                     
                     </ul>
                  </div>
 
-             </div>
+          </div>
 
-               <!-- <div class="logo">
-                 <img src="../assets/dc-logo-bg.png" alt="">
-             </div>
--->
-
-            
+          <div class="logo">
+              <img src="../assets/dc-logo-bg.png" alt="">
+          </div>
 
 
          </div>
@@ -90,18 +87,32 @@ export default {
         margin-bottom: 10px;
     }
 
-    li{
-        color: #7c7c7c;
-        font-size: 12px;
-        list-style: none;
-        margin-bottom: 7px;
-    }
+   
 
   
     .list{
         width: 130px;
         text-align: left;
         margin-top: 30px;
+
+        li{
+            list-style: none;
+        }
+        
+        a{
+            font-size: 12px;
+            margin-bottom: 7px;  
+            text-decoration: none;
+            color:  #7c7c7c;
+            &:hover{
+                color: #0282f9;
+            }
+
+        }
+    }
+
+    img{
+        height: 300px;
     }
    
 
