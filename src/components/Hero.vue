@@ -1,18 +1,16 @@
 <template>
    <div class="hero">
-      <div class="container">
-         <div class="label">
-            <p>CURRENT SERIES</p>
-         </div>
-     </div>   
-    </div> 
-  
+       <div class="container">
+            <div class="label">
+               <p>CURRENT SERIES</p>
+            </div>
+        </div>   
+    </div>   
 </template>
 
 <script>
 export default {
     name: 'Hero'
-
 }
 </script>
 
@@ -25,9 +23,7 @@ export default {
         background-image: url(../assets/jumbotron.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-
     }
-
     .label{
         width: 185px;
         height: 50px;
@@ -38,7 +34,6 @@ export default {
         font-weight: 600;
         font-size: 20px;
         transform: translate(0, +538%);
-
     }
 
 </style>

@@ -1,7 +1,9 @@
 <template>
    <header class="container" >
         <div>
-            <img src="../assets/dc-logo.png" alt="">
+            <a href="/">
+                <img src="../assets/dc-logo.png" alt="">
+            </a>
         </div>
         <div>
             <ul>
@@ -10,20 +12,16 @@
                        :href="link.url"> 
                        {{ link.text }} 
                     </a>
-                </li>
-            
+                </li>           
             </ul>
         </div>
-   </header>
-  
+   </header>  
 </template>
 
 <script>
 export default {
     name: 'Header',
-
      data() {
-
         return {
             navLink: [
                 {
@@ -76,13 +74,9 @@ export default {
                     url: '/',
                     current: false,
                 },
-
             ],
-
         };
-
     },
-
 };
 
 </script>
@@ -98,8 +92,7 @@ export default {
             width: 60px;
         }
     }
-     ul{
-        
+     ul{       
          display: flex;
          list-style: none;
          font-size: 12px;
@@ -108,14 +101,13 @@ export default {
              height: 100px;
              display: flex;
              align-items: center;
+             border-bottom: 4px solid transparent;
              &:hover{
                  border-bottom: 4px solid #0282f9;
-                 transition:  0.5s ease;
+                 transition:  0.3s ease;
                  color: #0282f9;
              }
-         }
-
-      
+         }      
          a{
              color: #464646;
              padding: 0 1rem;
@@ -124,14 +116,8 @@ export default {
              &.active,
              &:hover{
                 color: #0282f9;
-             }
-             
-
+            }         
          }
-         
-        
-
      }
-
 
 </style>

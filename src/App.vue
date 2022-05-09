@@ -38,8 +38,6 @@ export default {
     Footer,
   }
 }
-
-
 </script>
 
 <style lang="scss">
@@ -48,22 +46,19 @@ export default {
   font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 .container{
   width: 1000px;
   margin: 0 auto;
   display: flex;
-
 }
 
 </style>

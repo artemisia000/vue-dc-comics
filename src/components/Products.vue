@@ -1,7 +1,6 @@
 <template>
   <div class="products">
       <div class="container">
-
           <ul class="grill">
               <li v-for="(card, index) in cards " :key="`car-${{index}}`">
                   <a href="">
@@ -13,7 +12,6 @@
               </li>
           </ul>
       </div>
-
           <button class="btn" >
               LOAD MORE
           </button>
@@ -99,12 +97,9 @@ export default {
         series: 'CATWOMAN',
         type: 'graphic novel',
     },
-
         ] 
      }
-
    }
-
 }
 </script>
 
@@ -123,30 +118,24 @@ export default {
             font-size: 12px;
             font-weight: 400;
             margin-bottom: 30px;
-        }
-    
+        }   
     }
-
     .grill{
         display: flex;
         flex-wrap:wrap ;
         list-style: none;
         margin-top: 40px;
-
         li{
             width: calc(100% / 6);
             text-align: left;
-
             a{
                 text-decoration: none;
                 &:hover{
                     filter: grayscale(60%);
-                }
-              
-            }
-            
-
+                }             
+            }            
             p{
+                width: 140px;
                 font-size: 11px;
                 color: #fff;
                 margin-bottom: 30px;
@@ -154,16 +143,13 @@ export default {
                 &:hover{
                      color: #0282f9;
                 }
-            }
-          
+            }         
         }
-
         img{
             width: 140px;
-            height: 140px;
-             
-        }
-        
+            height: 210px;
+            object-fit: cover;
+            position:top;            
+        }       
     }
-
 </style>

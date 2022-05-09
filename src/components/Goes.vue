@@ -5,16 +5,12 @@
                <a class="goes" href="/"> -->Content goes here</a>
            </div>
        </div>
-   </div>
-
-
-  
+   </div> 
 </template>
 
 <script>
 export default {
     name: 'Goes'
-
 }
 </script>
 
@@ -26,17 +22,14 @@ export default {
         display: flex;
         align-items: center;
     }
-
     .goes{
         color: #fff;
         font-size: 25px;
         font-weight: 600;
-    }
-    
+    }   
     a{
         justify-content: flex-start;
         text-decoration: none;
     }
-
 
 </style>

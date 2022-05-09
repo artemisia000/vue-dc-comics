@@ -6,33 +6,29 @@
             </div>
             <div class="follow">
                    <span>FOLLOW US</span>
-                   <a href="">
+                    <a href="">
                        <img src="../assets/footer-facebook.png" alt="">
-                   </a>
-                   <a href="">
+                    </a>
+                    <a href="">
                        <img src="../assets/footer-twitter.png" alt="">
-                   </a>
-                   <a href="">
+                    </a>
+                    <a href="">
                        <img src="../assets/footer-youtube.png" alt="">
-                   </a>
-                   <a href="">
+                    </a>
+                    <a href="">
                        <img src="../assets/footer-pinterest.png" alt="">
-                   </a>
+                    </a>
                     <a href="">
                         <img src="../assets/footer-periscope.png" alt="">
                     </a>
             </div>
-
         </div>
-    </footer>
-     
-  
+    </footer> 
 </template>
 
 <script>
 export default {
     name: 'Footer'
-
 }
 </script>
 
@@ -52,9 +48,7 @@ export default {
                 display: flex;
                 align-items: center;
             }
-        }
-       
-        
+        }        
     }
 
     .btn{
@@ -69,7 +63,6 @@ export default {
             background-color: #0282f9;
             transition: 2s;
         }
-
     }
 
     span{
@@ -78,7 +71,6 @@ export default {
         font-weight: 600;
         margin-right: 20px;
     }
-
     a{
         margin: 0 10px;
         &:hover{

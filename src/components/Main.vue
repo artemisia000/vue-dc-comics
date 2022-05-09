@@ -1,8 +1,7 @@
 <template>
      <main>
          <div class="container body">
-             <div class="box">
-
+              <div class="box">
                  <div class="list">
                      <ul>
                          <h2>DC COMICS</h2>
@@ -16,9 +15,8 @@
                          <h2>SHOP</h2>
                          <li><a href="">Shop DC</a></li>
                          <li><a href="">Shop DC collectibles</a></li>
-                    </ul>
+                     </ul>
                  </div>
-
                  <div class="list">
                      <ul>
                          <h2>DC</h2>
@@ -29,9 +27,8 @@
                          <li><a href="">Subscriptions</a></li>
                          <li><a href="">CPSC Certificates</a></li>
                          <li><a href="">Ratings</a></li>
-                    </ul>
+                     </ul>
                  </div>
-
                  <div class="list">
                      <ul>
                          <h2>SITES</h2>
@@ -39,14 +36,11 @@
                          <li><a href="">DC UNIVERSE INFINITE</a></li>
                          <li><a href="">DC Kids</a></li>
                          <li><a href="">DC Shop</a></li>
-                         <li><a href="">MAD Magazine</a></li>
-                    
-                    </ul>
+                         <li><a href="">MAD Magazine</a></li>                    
+                     </ul>
                  </div>
-             </div>
-
-                <div class="logo">
-             
+              </div>
+                <div class="logo">            
                 </div>
         </div>
     </main>
@@ -55,7 +49,6 @@
 <script>
 export default {
     name: 'Main'
-
 }
 </script>
 
@@ -65,50 +58,38 @@ export default {
         height: 300px;
         background-image: url(../assets/footer-bg.jpg);
         background-size: cover;
-        position: relative;
-         
+        position: relative;         
         .box{
             display: flex;
-
         }
-
     }
-
     .body{
         display: flex;
         justify-content: space-between;
 
         .logo{
             width: 700px;
+            height: 300px;
             background-image: url(../assets/dc-logo-bg.png) ;
             background-repeat: no-repeat;
             background-position-x: 100%;
             background-position-y: center;
-            background-repeat: no-repeat;
-     
-        }
-      
+            background-repeat: no-repeat;    
+        }     
     }
-
-
     h2{
         color: #fff;
         font-size: 20px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-
-
     .list{
         width: 130px;
         text-align: left;
         margin-top: 30px;
-
         li{
-            list-style: none;
-                
-        }
-        
+            list-style: none;              
+        }       
         a{
             font-size: 12px; 
             text-decoration: none;
@@ -116,9 +97,7 @@ export default {
             &:hover{
                 color: #0282f9;
             }
-
         }
     }
-
 
 </style>
